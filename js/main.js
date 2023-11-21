@@ -55,23 +55,23 @@ operations
 const arrayInfoImages = [
 {   'img': 'img/01.jpg',
     'titolo': 'Como Lake',
-    'descrizione': 'una riflesso inatteso'
+    'descrizione': 'Una riflesso inatteso'
 },
 {   'img': 'img/02.jpg',
     'titolo': 'Tirolo',
-    'descrizione': 'piccoli borghi'
+    'descrizione': 'Piccoli borghi'
 },
 {   'img': 'img/03.jpg',
     'titolo': 'London',
-    'descrizione': 'viva la Re(gina)'
+    'descrizione': 'Viva la Re(gina)'
 },
 {   'img': 'img/04.jpg',
     'titolo': 'Vienna',
-    'descrizione': 'a spasso con Sissi'
+    'descrizione': 'A spasso con Sissi'
 },
 {   'img': 'img/05.jpg',
-    'titolo': 'bahamas',
-    'descrizione': 'qui il telefono non prende'
+    'titolo': 'Bahamas',
+    'descrizione': 'Qui il telefono non prende'
 }
 ];
 
