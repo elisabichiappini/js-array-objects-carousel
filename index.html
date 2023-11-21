@@ -4,22 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carosello News</title>
+    <title>Carosello Array di Oggetti</title>
     <!-- add file css-->
     <link rel="stylesheet" href="css/style.css" />
-    <!-- add file css-->
+    <!-- /add file css-->
   </head>
   <body>
+    <!-- visual project carousel --> 
     <div class="container">
       <div class="items">
+        <!-- bottoni precedente e prossima-->
         <div class="prev"></div>
         <div class="next"></div>
       </div>
+      <!-- /bottoni precedente e prossima-->
+
+      <!-- bottoni play e stop-->
       <div class="buttons">
         <button class="play">Play</button>
         <button class="stop">Stop</button>
       </div>
+      <!-- /bottoni play e stop-->
     </div>
+    <!-- visual project carousel --> 
+    
+    <!-- template per ricreare  gli elementi in dom --> 
+    <template id="objectTemplate">
+      <div class="item">
+        <img src="" alt="">
+        <h3></h3>
+        <span></span>
+      </div>
+    </template>
+    <!-- /template per ricreare  gli elementi in dom --> 
+    
     <!-- add file js-->
     <script src="js/main.js"></script>
     <!-- /add file js-->
